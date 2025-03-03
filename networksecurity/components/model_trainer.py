@@ -27,6 +27,11 @@ import mlflow
 from urllib.parse import urlparse
 
 
+import dagshub
+dagshub.init(repo_owner='raval.hetav', repo_name='networksecurity', mlflow=True)
+
+
+
 
 
 class ModelTrainer:
